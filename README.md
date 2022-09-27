@@ -27,4 +27,4 @@ You can customize the folder layout and other settings by using the official cus
 
 ## License ⚠️
 
-The only content under LPv3 license is my own configuration, anything else, used as dependency, is owned by their respective owner.
+The only content under GPLv3 license is my own configuration, anything else, used as dependency, is owned by their respective owner.
