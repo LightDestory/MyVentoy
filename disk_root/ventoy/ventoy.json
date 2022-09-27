@@ -1,0 +1,237 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/_BOOTABLE" }
+    ],
+    "theme":{
+        "file": "/ventoy/theme/lightdestory/theme.txt",
+        "ventoy_left": "0%",
+        "ventoy_top": "98%",
+        "ventoy_color": "#444444",
+        "fonts":[
+            "/ventoy/theme/lightdestory/terminus-14.pf2"
+        ]
+    },
+    "menu_tip":{
+        "tips":[
+            {
+                "dir": "/_BOOTABLE/Linux",
+                "tip": "Contains Linux distros"
+            },
+            {
+                "dir": "/_BOOTABLE/Windows",
+                "tip": "Contains Windows images"
+            },
+            {
+                "dir": "/_BOOTABLE/Utility",
+                "tip": "Contains bootable utilities"
+            }
+        ]
+    },
+    "menu_class":[
+        {
+            "key": "Acronis",
+            "class": "acronis"
+        },
+        {
+            "key": "archlinux-",
+            "class": "archlinux"
+        },
+        {
+            "key": "CentOS-",
+            "class": "centos"
+        },
+        {
+            "key": "clonezilla-",
+            "class": "clonezilla"
+        },
+        {
+            "key": "debian-",
+            "class": "debian"
+        },
+        {
+            "key": "deepin-",
+            "class": "deepin"
+        },
+        {
+            "key": "elementaryos-",
+            "class": "elementaryos"
+        },
+        {
+            "key": "Federa-",
+            "class": "federa"
+        },
+        {
+            "key": "Ghost",
+            "class": "ghost"
+        },
+        {
+            "key": "linuxmint-",
+            "class": "linuxmint"
+        },
+        {
+            "key": "Symantec",
+            "class": "symantec"
+        },
+        {
+            "key": "Win_7",
+            "class": "windows_7"
+        },
+        {
+            "key": "Win7",
+            "class": "windows_7"
+        },
+        {
+            "key": "Win8",
+            "class": "windows_8"
+        },
+        {
+            "key": "Win10",
+            "class": "windows_10"
+        },
+        {
+            "key": "Win11",
+            "class": "windows_11"
+        },
+        {
+            "key": "windows_7",
+            "class": "windows_7"
+        },
+        {
+            "key": "windows_8",
+            "class": "windows_8"
+        },
+        {
+            "key": "windows_10",
+            "class": "windows_10"
+        },
+        {
+            "key": "windows_11",
+            "class": "windows_11"
+        },
+        {
+            "key": "WindowsXP",
+            "class": "windows_xp"
+        },
+        {
+            "key": "WinXP",
+            "class": "windows_xp"
+        },
+        {
+            "key": "kubuntu-",
+            "class": "kubuntu"
+        },
+        {
+            "key": "lubuntu-",
+            "class": "lubuntu"
+        },
+        {
+            "key": "xubuntu-",
+            "class": "xubuntu"
+        },
+        {
+            "key": "ubuntu-",
+            "class": "ubuntu"
+        },
+        {
+            "key": "ventoy-",
+            "class": "ventoy"
+        },
+        {
+            "dir": "/_BOOTABLE/Linux",
+            "class": "linux"
+        },
+        {
+            "dir": "/_BOOTABLE/Utility",
+            "class": "utility"
+        },
+        {
+            "dir": "/_BOOTABLE/Windows",
+            "class": "windows"
+        },
+        {
+            "key": "EndeavourOS_",
+            "class": "endeavouros"
+        },
+        {
+            "key": "FreeBDS-",
+            "class": "frebsd"
+        },
+        {
+            "key": "gentoo-",
+            "class": "gentoo"
+        },
+        {
+            "key": "gparted-",
+            "class": "gparted"
+        },
+        {
+            "key": "kali-",
+            "class": "kali"
+        },
+        {
+            "key": "KaOS",
+            "class": "kaos"
+        },
+        {
+            "key": "Lockpick",
+            "class": "lockpick"
+        },
+        {
+            "key": "Mageia-",
+            "class": "mageia"
+        },
+        {
+            "key": "manjaro-",
+            "class": "manjaro"
+        },
+        {
+            "key": "memtest86-usb",
+            "class": "memtest86"
+        },
+        {
+            "key": "mt86plus-",
+            "class": "memtest86+"
+        },
+        {
+            "key": "MX-",
+            "class": "mx-linux"
+        },
+        {
+            "key": "openSUSE-",
+            "class": "opensuse"
+        },
+        {
+            "key": "pop-os_",
+            "class": "pop-os"
+        },
+        {
+            "key": "rescatux-",
+            "class": "rescatux"
+        },
+        {
+            "key": "siduction-",
+            "class": "siduction"
+        },
+        {
+            "key": "slackware",
+            "class": "slackware"
+        },
+        {
+            "key": "Solus-",
+            "class": "solus"
+        },
+        {
+            "key": "tails-",
+            "class": "tails"
+        },
+        {
+            "key": "Zorin-OS-",
+            "class": "zorin"
+        }
+    ],
+    "image_blacklist":[
+        "/ventoy/ventoy_vhdboot.img",
+        "/ventoy/ventoy_wimboot.img"
+    ]
+}

@@ -1,0 +1,145 @@
+# Global Property
+title-text: ""
+desktop-image: "background.jpg"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+menu-tip-left: "10%"
+menu-tip-top: "75%"
+menu-tip-color: "#856700"
+
+# Show the boot menu
++ boot_menu {
+  left = 8%
+  top = 8%
+  width = 70%
+  height = 65%
+  item_font = "Unifont Regular 16"
+  item_color = "#cccccc"
+  icon_width = 32
+  icon_height = 32
+  item_icon_space = 20
+  item_height = 32
+  item_padding = 10
+  item_spacing = 10
+  selected_item_color = "#856700"
+  selected_item_pixmap_style = "select_*.png"
+  menu_pixmap_style = "menu_*.png"
+  scrollbar = true
+  scrollbar_width = 4
+  scrollbar_thumb = "slider_*.png"
+}
+
+# Grub2 messages
++ hbox {
+  top = 80%
+  left = 10%
+  + label {text = "Enter: " font = "Terminus Regular 14" color = "#856700" align = "left"}
+  + label {text = "Boot Selection    " font = "Terminus Regular 14" color = "#cccccc" align = "left"}
+  + label {text = "E: " font = "Terminus Regular 14" color = "#856700" align = "left"}
+  + label {text = "Edit Selection    " font = "Terminus Regular 14" color = "#cccccc" align = "left"}
+  + label {text = "C: " font = "Terminus Regular 14" color = "#856700" align = "left"}
+  + label {text = "GRUB Commandline" font = "Terminus Regular 14" color = "#cccccc" align = "left"}
+}
+
+# Ventoy messages
++ hbox {
+  top = 80%+20
+  left = 10%
+  + label {text = "h:     " font = "Terminus Regular 14" color = "#856700" align = "left"}
+  + label {text = "Ventoy Help       " font = "Terminus Regular 14" color = "#cccccc" align = "left"}
+  + label {text = "m: " font = "Terminus Regular 14" color = "#856700" align = "left"}
+  + label {text = "Checksums" font = "Terminus Regular 14" color = "#cccccc" align = "left"}
+}
+
+ + vbox {
+    left = 5%
+	  top = 88%
+    + label {text = "[F1]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "Memdisk" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+ }
+ + image {
+    left = 5%+14
+    top = 88%+28
+    file = "icons/mem.png"
+ }
+ + vbox {
+    left = 15%
+	  top = 88%
+    + label {text = "[F2]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "Browser" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+ }
+ + image {
+    left = 15%+14
+    top = 88%+28
+    file = "icons/boot_disk.png"
+ }
+ + vbox {
+    left = 25%
+	  top = 88%
+    + label {text = "[F3]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "List/Tree" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+ }
+ + image {
+    left = 25%+18
+    top = 88%+28
+    file = "icons/browse_files.png"
+ }
+ + vbox {
+    left = 35%
+	  top = 88%
+    + label {text = "[F4]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "Localboot" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+ }
+ + image {
+    left = 35%+20
+    top = 88%+28
+    file = "icons/boot_disk.png"
+ }
+ + vbox {
+    left = 45%
+	  top = 88%
+    + label {text = "[F5]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "Tools" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+ }
+ + image {
+    left = 45%+5
+    top = 88%+28
+    file = "icons/ventoy.png"
+ }
+ + vbox {
+    left = 55%
+	  top = 88%
+    + label {text = "[F6]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "Extra Menu" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+ }
+ + image {
+    left = 55%+24
+    top = 88%+28
+    file = "icons/custom_menu.png"
+ }
++ vbox {
+    left = 65%
+	  top = 88%
+    + label {text = "[F7]" font = "Terminus Regular 14" color = "#856700" align = "center"}
+    + label {text = "Text/GUI Mode" font = "Terminus Regular 14" color = "#cccccc" align = "center"}
+}
++ image {
+    left = 65%+30
+    top = 88%+28
+    file = "icons/mode_text.png"
+}
+
++ vbox {
+  left = 82%
+  top = 10%
+  + label {text = "@VTOY_MEM_DISK@" font = "Terminus Regular 14" color = "#856700" align = "center"} 
+  + label {text = "@VTOY_WIMBOOT_MODE@" font = "Terminus Regular 14" color = "#856700" align = "center"} 
+  + label {text = "@VTOY_ISO_RAW@" font = "Terminus Regular 14" color = "#856700" align = "center"} 
+  + label {text = "@VTOY_ISO_UEFI_DRV@" font = "Terminus Regular 14" color = "#856700" align = "center"} 
+}
